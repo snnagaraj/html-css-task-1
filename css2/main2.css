@@ -1,49 +1,60 @@
+*{
+	margin:0;
+	padding:0;
+	border-box:box-sizing;
+}
+
 .container{
-    width: 1300px;
+    width:90%;
+	margin:auto;
 }
 .head{
-	display:flex;
-	width:1350px;
-	margin-top:-8px;
-	background-color:#DEECF2;
+	width:100%;
 }
 .logo h1{
+	font-size:25px;
 	margin-left:30px;
-	padding-top:5px;
+	
 }
-.navbar{
+.header-flex{
 	display:flex;
-	margin-top:30px;
-	margin-left:500px;
+	justify-content:space-between;
+}
+.header{
+  height:80px;
+  line-height:80px;
+  background-color:#CCE0E8;
+
 }
 .navbar li{
 	list-style-type:none;
 	padding-right:20px;
 	font-size:17px;
+	display:inline-block;
 }
-.navbar button{
-	margin-bottom:20px;
-	width:120px;
-	height:30px;
-	margin-top:-5px;
+.header-flex .navbar button{
+
 	border:none;
 	border-radius:6px;
-	background-color:#8DC9E8;
+	background-color:#D2DADD;
 	color:#077CB7;
+	padding:15px 10px 15px 10px;
 }
 
 .banner h2{
 	font-size:35px;
 	font-weight:bold;
 	text-align:center;
-	margin-right:40px;
+	margin-right:20px;
+	margin-top:20px;
 	color:#2B4263;
 }
 .banner p{
 	font-size:25px;
 	text-align:center;
-	margin-right:40px;
-	margin-top:-10px;
+	margin-right:20px;
+	margin-top:10px;
+	margin-bottom:15px;
 	color:#2B4263;
 }
 .banner button{
@@ -55,7 +66,7 @@
 	background-color:#0963EA;
 	color:white;
 	text-align:center;
-	margin-left:570px;
+	margin-left:580px;
 }
 .banner img{
 	width:500px;
