@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:100%;
+	margin:auto;
+}
+.head{
+	height:100px;
+}
+.content h1{
+	font-size:20px;
+	font-weight:bold;
+	color:#414E68;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+.hrline{
+	width:40px;
+	height:3px;
+	position:absolute;
+	display:block;
+	background-color:#5F774B;
+	margin-left:650px;
+}
+.content p{
+	font-size:17px;
+	color:#414E68;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.slide{
+	text-align:center;
+}
+.slide button{
+	font-size:12px;
+	width:50px;
+	height:30px;
+	border:none;
+	background-color:#EFF2F4;
+}
+.slide .easy{
+	background-color:#62A7D6;
+	color:white;
+}
+.portfolio-flex{
+	display:flex;
+	margin-left:140px;
+	margin-top:30px;
+}
+.part1{
+	width:30%;
+}
+.img1 img{
+	width:330px;
+	height:300px;
+}
+.img2 img{
+	width:330px;
+	height:450px;
+	margin-top:15px;
+}
+.part2{
+	width:30%;
+}
+.img3 img{
+	width:330px;
+	height:250px;
+}
+.img4 img{
+	width:330px;
+	height:400px;
+	margin-top:15px;
+}
+.img5 img{
+	width:330px;
+	height:250px;
+	margin-top:15px;
+}
+.part3{
+	width:30%;
+}
+.img6 img{
+	width:330px;
+	height:200px;
+}
+.img7 img{
+	width:330px;
+	height:200px;
+	margin-top:15px;
+}
+.img8 img{
+	width:330px;
+	height:200px;
+	margin-top:15px;
+}
+.img9 img{
+	width:330px;
+	height:200px;
+	margin-top:15px;
+}
